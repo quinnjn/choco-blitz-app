@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2015/06/nuspec.xsd">
+  <metadata>
+    <id>blitz-app</id>
+    <version>0.0.0-rc1</version>
+    <packageSourceUrl>https://github.com/quinnjn/choco-blitz-app</packageSourceUrl>
+    <owners>quinnjn</owners>
+    <title>Blitz</title>
+    <authors>Blitz</authors>
+    <projectUrl>https://blitz.gg</projectUrl>
+    <iconUrl>http://cdn.rawgit.com/quinnjn/choco-blitz-app/main/icons/blitz-app.png</iconUrl>
+    <tags>blitz-app blitz.gg blitz league of legends league-of-legends lol</tags>
+    <summary>Blitz app for League of Legends</summary>
+    <description>
+    This package installs/uninstalls League of Legends. 
+
+    Issues? Bugs? Suggestions? Create an issue on [GitHub](https://github.com/quinnjn/choco-blitz-app/)
+    </description>
+  </metadata>
+  <files>
+    <file src="tools\**" target="tools" />
+  </files>
+</package>
